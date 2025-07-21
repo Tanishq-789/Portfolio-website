@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github as LucideGithub, Code2, Database, Bot, Sparkles } from 'lucide-react';
+import { ExternalLink, Github as LucideGithub, Code2, Bot, Sparkles } from 'lucide-react';
 
 const ProjectsSection: React.FC = () => {
   const projects = [
@@ -38,7 +38,7 @@ const ProjectsSection: React.FC = () => {
   return (
     <section id="projects" className="py-20 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900" />
-      
+
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -90,7 +90,7 @@ const ProjectsSection: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Key Highlights */}
+                {/* Highlights */}
                 <div className="mb-6">
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
                     Key Achievements
@@ -131,7 +131,7 @@ const ProjectsSection: React.FC = () => {
                         transition={{ duration: 0.3, delay: idx * 0.05 }}
                         whileHover={{ scale: 1.1, y: -2 }}
                         className={`px-3 py-1 bg-gradient-to-r ${project.bgGradient} border border-current rounded-full text-sm font-medium cursor-default`}
-                        style={{ 
+                        style={{
                           background: `linear-gradient(to right, ${project.gradient.includes('emerald') ? 'rgb(16 185 129 / 0.1)' : 'rgb(168 85 247 / 0.1)'}, ${project.gradient.includes('emerald') ? 'rgb(13 148 136 / 0.1)' : 'rgb(236 72 153 / 0.1)'})`,
                           color: project.gradient.includes('emerald') ? 'rgb(5 150 105)' : 'rgb(147 51 234)'
                         }}
@@ -142,39 +142,32 @@ const ProjectsSection: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Action Buttons */}
+                {/* Corrected View Details Button */}
                 <div className="flex space-x-4">
-                  <motion.button
-                    whileHover={{ scale: 1.05, y: -2 }}
-                    whileTap={{ scale: 0.95 }}
-                    className={`flex items-center space-x-2 px-4 py-2 bg-gradient-to-r ${project.gradient} text-white font-semibold rounded-lg shadow-md hover:shadow-lg transition-all duration-300`}
-                  >
-                    <Code2 className="w-4 h-4" />
-                    <a href="https://github.com/Tanishq-789" target="_blank" rel="noopener noreferrer">
-                    <span>View Details</span>
-                    </a>
-                    
-                  </motion.button>
+                  <a href={project.link} target="_blank" rel="noopener noreferrer">
+                    <motion.button
+                      whileHover={{ scale: 1.05, y: -2 }}
+                      whileTap={{ scale: 0.95 }}
+                      className={`flex items-center space-x-2 px-4 py-2 bg-gradient-to-r ${project.gradient} text-white font-semibold rounded-lg shadow-md hover:shadow-lg transition-all duration-300`}
+                    >
+                      <Code2 className="w-4 h-4" />
+                      <span>View Details</span>
+                    </motion.button>
+                  </a>
                 </div>
               </div>
 
-              {/* Decorative Elements */}
+              {/* Floating Element */}
               <motion.div
-                animate={{
-                  rotate: [0, 360],
-                }}
-                transition={{
-                  duration: 20,
-                  repeat: Infinity,
-                  ease: "linear"
-                }}
+                animate={{ rotate: [0, 360] }}
+                transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
                 className={`absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-br ${project.gradient} rounded-full opacity-20 group-hover:opacity-40 transition-opacity duration-300`}
               />
             </motion.div>
           ))}
         </div>
 
-        {/* Additional Projects Teaser */}
+        {/* View All Projects Button */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -182,11 +175,7 @@ const ProjectsSection: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-center mt-16"
         >
-          <a
-            href="https://github.com/Tanishq-789"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://github.com/Tanishq-789" target="_blank" rel="noopener noreferrer">
             <motion.button
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
