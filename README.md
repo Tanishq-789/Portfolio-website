@@ -56,6 +56,29 @@ Here are the essential directories and files:
 ```
 ---
 
+## 🛠 How to Set Up Locally
+
+Follow these steps to run the project on your local system:
+
+### 1. 📦 Clone the Repository
+
+```bash
+git clone https://github.com/Tanishq-789/Portfolio-website.git
+cd Portfolio-website
+```
+2. 📁 Install Dependencies
+Make sure you have Node.js (>=18.x) and npm installed.
+```bash
+npm install
+```
+3. 🚀 Start the Development Server
+```bash
+npm run dev
+```
+The app will be available at: http://localhost:5173
+---
+
+
 ## 💼 Projects Featured
 
 - 🤖 **Skin Condition Analyzer**  
