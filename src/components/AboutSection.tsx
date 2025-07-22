@@ -130,7 +130,7 @@ const AboutSection: React.FC = () => {
             >
               <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Core Technologies</h4>
               <div className="flex flex-wrap gap-2">
-                {['Python', 'JavaScript', 'React', 'TensorFlow', 'MongoDB', 'FastAPI'].map((skill, index) => (
+                {['Python', 'JavaScript', 'React','MySQL','MongoDB', 'FastAPI','TensorFlow','Docker'].map((skill, index) => (
                   <motion.span
                     key={skill}
                     initial={{ opacity: 0, scale: 0 }}
