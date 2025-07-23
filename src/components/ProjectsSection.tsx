@@ -24,7 +24,7 @@ const ProjectsSection: React.FC = () => {
       name: "Personalized Skincare Recommendation System",
       description: "Deep learning-powered recommendation system using advanced computer vision to analyze skin conditions and provide personalized care suggestions.",
       highlights: [
-        "Developed a DL-powered recommendation system using ResNet-50 with 94% accuracy across 6 skin conditions.",
+        "Developed a DL-powered recommendation system using ResNet-50 with 95.60% accuracy across 6 skin conditions.",
         "Analyzed 2,394+ images to build a high-quality dataset ensuring reliable predictions."
       ],
       technologies: ["Pandas", "NumPy", "matplotlib", "torchvision", "TensorFlow", "Streamlit"],
