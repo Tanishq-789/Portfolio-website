@@ -4,10 +4,10 @@ import { GraduationCap, MapPin, Calendar, Award } from 'lucide-react';
 
 const AboutSection: React.FC = () => {
   const stats = [
-    { label: 'CGPA', value: '9.05', icon: Award },
+    { label: 'CGPA', value: '9.08', icon: Award },
     { label: 'LeetCode Problems Solved', value: '800+', icon: Award },
     { label: 'SSoC | GSSoC', value: 'Contributor', icon: Calendar },
-    { label: 'Leetcode Rating', value: '1819', icon: Award },
+    { label: 'Leetcode Rating', value: '1868', icon: Award },
   ];
 
   return (
@@ -77,7 +77,7 @@ const AboutSection: React.FC = () => {
 
                 <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
                   <div className="text-2xl font-bold text-green-600 dark:text-green-400">
-                    CGPA: 9.05
+                    CGPA: 9.08
                   </div>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Currently Pursuing</p>
                 </div>
