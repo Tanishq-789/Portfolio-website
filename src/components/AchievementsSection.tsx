@@ -6,11 +6,11 @@ const AchievementsSection: React.FC = () => {
   const achievements = [
     {
       title: "LeetCode Scoring",
-      description: "Consistently solved over 800 problems in one year, reaching a peak rating of 1819 — demonstrating strong problem-solving skills and coding consistency.",
+      description: "Consistently solved over 800 problems in one year, reaching a peak rating of 1868 — demonstrating strong problem-solving skills and coding consistency.",
       icon: Code,
       gradient: "from-orange-500 to-red-600",
       bgGradient: "from-orange-500/10 to-red-600/10",
-      stats: "1819 Rating • 800+ Problems",
+      stats: "1868 Rating • 800+ Problems",
       link: "https://leetcode.com/u/Tanishq7-77/",
       type: "competitive"
     },
