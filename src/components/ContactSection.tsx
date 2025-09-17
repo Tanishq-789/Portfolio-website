@@ -27,7 +27,7 @@ const ContactSection: React.FC = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'tanishqshinde777@gmail.com',
+      value: 'tanishqshinde295@gmail.com',
       href: 'mailto:tanishqshinde777@gmail.com',
       gradient: 'from-blue-500 to-blue-600',
       description: 'Drop me a line anytime'
