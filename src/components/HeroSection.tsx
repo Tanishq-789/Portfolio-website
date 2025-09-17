@@ -69,7 +69,7 @@ const HeroSection = () => {
         <div className="mt-6 flex justify-center gap-4 flex-wrap">
 
           <a
-            href="/Tanishq_Shinde_C2K221310_Resume.pdf"
+            href="/Tanishq_Shinde_Resume.pdf"
             download
             target="_blank"
             rel="noopener noreferrer"
