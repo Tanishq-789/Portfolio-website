@@ -33,14 +33,6 @@ const ContactSection: React.FC = () => {
       description: 'Drop me a line anytime'
     },
     {
-      icon: Phone,
-      label: 'Phone',
-      value: '+91-88301 80982',
-      href: 'tel:+918830180982',
-      gradient: 'from-green-500 to-green-600',
-      description: 'Available during business hours'
-    },
-    {
       icon: MapPin,
       label: 'Location',
       value: 'Pune, Maharashtra',
